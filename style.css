@@ -1,0 +1,41 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+p {
+    font-family: 'Playfair Display', serif;
+}
+.background {
+    background-color: #FFF2D8;
+}
+
+.title {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    text-align: center;
+}
+
+.profile-text { 
+    text-align: center;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    text-align: left;   
+}
+
+#footer {
+    background-color: #113946;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 1fr;
+    gap: 50px;
+}
